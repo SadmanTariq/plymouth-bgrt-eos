@@ -1,0 +1,99 @@
+[Plymouth Theme]
+Name[be]=BGRT EOS
+Name[cs]=BGRT EOS
+Name[da]=BGRT EOS
+Name[de]=BGRT EOS
+Name[eo]=BGRT EOS
+Name[es]=BGRT EOS
+Name[eu]=BGRT EOS
+Name[fr]=BGRT EOS
+Name[fur]=BGRT EOS
+Name[hi]=BGRT EOS (सिस्टम का लोगो)
+Name[hr]=BGRT EOS
+Name[hu]=BGRT EOS
+Name[id]=BGRT EOS
+Name[it]=BGRT EOS
+Name[lt]=BGRT EOS
+Name[ka]=BGRT EOS
+Name[nl]=BGRT EOS
+Name[pa]=BGRT EOS
+Name[pl]=BGRT EOS
+Name[pt_BR]=BGRT EOS
+Name[ro]=BGRT EOS
+Name[ru]=BGRT EOS
+Name[sr]=BGRT EOS
+Name[sv]=BGRT EOS
+Name[uk]=BGRT EOS
+Name[zh_CN]=BGRT EOS
+Name[ms]=BGRT EOS
+Name[he]=BGRT EOS
+Name[fa]=BGRT EOS
+Name[fi]=BGRT EOS
+Name[ie]=BGRT EOS
+Name[gl]=BGRT EOS
+Name[cy]=BGRT EOS
+Name[kk]=BGRT EOS
+Name=BGRT EOS
+Description=Jimmac's spinner theme using the ACPI BGRT graphics as background with EndeavourOS logo
+ModuleName=two-step
+
+[two-step]
+Font=Cantarell 12
+TitleFont=Cantarell Light 30
+ImageDir=/usr/share/plymouth/themes//bgrt-eos
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x000000
+BackgroundEndColor=0x000000
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0xffffff
+DialogClearsFirmwareBackground=true
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[shutdown]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[reboot]
+UseEndAnimation=false
+UseFirmwareBackground=true
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
